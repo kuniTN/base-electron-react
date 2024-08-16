@@ -14,6 +14,9 @@
   "cSpell.ignorePaths": [
     ".stylelintrc.json",
     ".vscode",
-    "package.json"
+    "package.json",
+    "electron-builder.yml",
+    "LICENSE",
+    "package-lock.json",
   ]
 }
