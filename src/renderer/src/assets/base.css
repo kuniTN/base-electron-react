@@ -21,9 +21,6 @@
   --ev-button-alt-hover-border: transparent;
   --ev-button-alt-hover-text: var(--ev-c-text-1);
   --ev-button-alt-hover-bg: var(--ev-c-gray-2);
-}
-
-:root {
   --color-background: var(--ev-c-black);
   --color-background-soft: var(--ev-c-black-soft);
   --color-background-mute: var(--ev-c-black-mute);
@@ -35,8 +32,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
   font-weight: normal;
+  margin: 0;
 }
 
 ul {
@@ -44,10 +41,8 @@ ul {
 }
 
 body {
-  min-height: 100vh;
-  color: var(--color-text);
   background: var(--color-background);
-  line-height: 1.6;
+  color: var(--color-text);
   font-family:
     Inter,
     -apple-system,
@@ -61,7 +56,9 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
 }
